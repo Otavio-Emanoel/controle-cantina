@@ -24,3 +24,16 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Inputs com texto e placeholder mais escuros para melhor leitura */
+input,
+select,
+textarea {
+  color: #0b1526;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #475569;
+}
